@@ -1,0 +1,43 @@
+.results-page {
+    padding: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .results-page h2 {
+    font-size: 2rem;
+    color: #3366cc;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .empty-text {
+    font-size: 1.1rem;
+    color: #999;
+    text-align: center;
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .chart-container:hover {
+    transform: scale(1.01);
+  }
+  
